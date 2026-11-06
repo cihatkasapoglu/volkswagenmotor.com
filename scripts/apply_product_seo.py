@@ -81,4 +81,13 @@ for i, p in enumerate(products):
 
 catalog_path.write_text(json.dumps(products, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 index_path.write_text(index_html, encoding="utf-8")
+
+# Keep the requested brand image as the favicon on all product pages.
+for page_path in (ROOT / "urun").glob("*.html"):
+    page_html = page_path.read_text(encoding="utf-8")
+    page_html = page_html.replace("favicon.svg", "volkswagen-motor.jpg")
+    page_path.write_text(page_html, encoding="utf-8")
+index_html = index_path.read_text(encoding="utf-8")
+index_html = index_html.replace("favicon.svg", "volkswagen-motor.jpg")
+index_path.write_text(index_html, encoding="utf-8")
 print(f"SEO copy applied to {len(products)} individual motor pages.")
