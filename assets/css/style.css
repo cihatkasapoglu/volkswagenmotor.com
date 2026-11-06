@@ -33,3 +33,30 @@
 
 /* Banner altındaki üç bilgilendirme metnini tüm sayfalarda gizle */
 .hero-note{display:none!important}
+
+/* Tüm mevcut ve üretilen sayfalarda telefon bağlantılarının tam numaralarını göster */
+a[href*="905537383806"],a[href*="905348441861"]{white-space:nowrap}
+a[href*="905537383806"].btn,a[href*="905348441861"].btn{min-width:max-content}
+.product-actions a[href*="905537383806"],
+.product-actions a[href*="905348441861"],
+.sticky-contact a[href*="905537383806"],
+.sticky-contact a[href*="905348441861"]{font-size:0!important;overflow:visible}
+.product-actions a[href*="905537383806"]::after,
+.sticky-contact a[href*="905537383806"]::after{content:"0553 738 38 06";font-size:12px!important}
+.product-actions a[href*="905348441861"]::after,
+.sticky-contact a[href*="905348441861"]::after{content:"0534 844 18 61";font-size:12px!important}
+.product-actions a[href*="905537383806"][href^="https://wa.me"]::after,
+.sticky-contact a[href*="905537383806"][href^="https://wa.me"]::after{content:"WhatsApp: 0553 738 38 06"}
+.product-actions a[href*="905348441861"][href^="https://wa.me"]::after,
+.sticky-contact a[href*="905348441861"][href^="https://wa.me"]::after{content:"WhatsApp: 0534 844 18 61"}
+.product-actions a[href*="905537383806"][href^="tel:"]::after,
+.sticky-contact a[href*="905537383806"][href^="tel:"]::after{content:"Ara: 0553 738 38 06"}
+.product-actions a[href*="905348441861"][href^="tel:"]::after,
+.sticky-contact a[href*="905348441861"][href^="tel:"]::after{content:"Ara: 0534 844 18 61"}
+@media(max-width:760px){
+ .product-actions a[href*="905537383806"]::after,
+ .product-actions a[href*="905348441861"]::after,
+ .sticky-contact a[href*="905537383806"]::after,
+ .sticky-contact a[href*="905348441861"]::after{font-size:11px!important}
+ .product-actions .btn{flex:1 1 100%;min-width:0}
+}
