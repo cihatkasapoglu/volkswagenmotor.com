@@ -1,0 +1,16 @@
+GÖRSELLERİ BU KLASÖRE KOPYALAYIN
+
+Kullanıcının verdiği özgün görseller henüz bu çalışma oturumundaki yüklemelerde görünmediği için site, dosyalar eklenene kadar SVG yedek görselleri gösterir. Aşağıdaki dosya adlarını değiştirmeden bu klasöre kopyalayın:
+
+1) volkswagen-motor.jpg                 (sol üst logo)
+2) volkswagen-motor-com.jfif            (ana sayfa banner)
+3) kasapoglu-group.jpeg                 (footer / grup logosu)
+4) MOTOR KOMPLE VW-SKODA-AUDI-SEAT CZC CZD CZE CHP VW 1.4 TSİ BENZİNLİ.jfif
+5) MOTOR KOMPLE VW-SKODA-AUDI-SEAT CZC CZD CZE CHP VW 1.4 TSİ BENZİNLİ MOTOR.jfif
+6) MOTOR KOMPLE CAV VW SCIROCCO TİGUAN 1.4 TSİ BENZİNLİ + DEVİRDAİM + TERMOSTAT.jfif
+7) MOTOR KOMPLE GOLF-JETTA-PASSAT-A3-LEON-SIROCCO TİGUAN 1.4 TSİ BENZİNLİ- CAX.jfif
+8) MOTOR KOMPLE AUDI A4-A5 2.0 BENZİNLİ- CDN + DEVİRDAİM + YAĞ SOĞUTUCU.jfif
+9) MOTOR KOMPLE VW-AUDİ-SKODA-SEAT 1.6 8V BSE.jfif
+10) MOTOR KOMPLE AUDI A4-A5 2.0 BENZİNLİ- CDN.jfif
+
+Dosyalar eklendiğinde sayfa, yedek görseller yerine otomatik olarak bu fotoğrafları kullanır. Dosya uzantısı ve Türkçe karakterler dâhil isimler aynı kalmalıdır.
