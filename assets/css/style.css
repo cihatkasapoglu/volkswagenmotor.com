@@ -14,3 +14,19 @@
 @media(max-width:1050px){.nav{gap:13px;font-size:12px}.brand-logo{width:180px}.header-actions .btn{padding:9px 12px}.product-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:760px){.container{width:min(var(--max),calc(100% - 28px))}.topline-inner{justify-content:center}.topline-links{display:none}.header-inner{min-height:72px}.brand-logo{width:174px;height:54px}.menu-toggle{display:block}.nav{display:none;position:absolute;left:0;right:0;top:72px;background:#fff;padding:15px 22px 20px;border-bottom:1px solid var(--line);box-shadow:0 12px 20px rgba(0,0,0,.06);flex-direction:column;align-items:stretch;gap:0}.nav.open{display:flex}.nav a{padding:11px 0;border-bottom:1px solid #edf2f7}.header-actions{display:none}.hero,.hero-inner{min-height:520px}.hero-inner{padding:50px 0}.hero:after{background:linear-gradient(90deg,rgba(4,22,48,.96),rgba(5,34,70,.78))}.hero p{font-size:15px}.trust-grid{grid-template-columns:repeat(2,1fr);margin-top:14px}.section{padding:52px 0}.section-head{display:block}.section-head>.btn{margin-top:16px}.product-grid{grid-template-columns:1fr}.product-image{height:230px}.choice-grid,.blog-grid{grid-template-columns:1fr}.content-grid,.article-layout,.contact-grid{grid-template-columns:1fr}.sidebox{position:static;order:-1}.footer-grid{grid-template-columns:1fr 1fr}.sticky-contact{left:10px;right:10px;bottom:9px}.sticky-contact .btn{flex:1;font-size:11px;padding:11px 7px}.phone-row{align-items:flex-start;flex-direction:column}.page-hero{padding:42px 0 34px}}
 @media(max-width:420px){.trust-grid,.footer-grid{grid-template-columns:1fr}.hero h1{font-size:34px}.hero-actions .btn{width:100%}.filter-select{width:100%}}
+
+/* Telefon ve WhatsApp numaralarını bütün sayfalarda tam göster */
+.sticky-contact a[href^="tel:+905537383806"],
+.product-actions a[href^="tel:+905537383806"],
+.product-actions a[href^="https://wa.me/905537383806"],
+.product-actions a[href^="tel:+905348441861"],
+.product-actions a[href^="https://wa.me/905348441861"],
+.sticky-contact a[href^="https://wa.me/905348441861"]{font-size:0;white-space:nowrap}
+.sticky-contact a[href^="tel:+905537383806"]::after,
+.product-actions a[href^="tel:+905537383806"]::after{content:"Ara: 0553 738 38 06";font-size:12px}
+.product-actions a[href^="https://wa.me/905537383806"]::after{content:"WhatsApp: 0553 738 38 06";font-size:12px}
+.product-actions a[href^="tel:+905348441861"]::after{content:"Ara: 0534 844 18 61";font-size:12px}
+.product-actions a[href^="https://wa.me/905348441861"]::after,
+.sticky-contact a[href^="https://wa.me/905348441861"]::after{content:"WhatsApp: 0534 844 18 61";font-size:12px}
+.product-actions .btn{flex:1 1 145px;min-width:145px}
+@media(max-width:760px){.sticky-contact .btn{font-size:0!important;padding:11px 6px}.sticky-contact a[href^="tel:+905537383806"]::after{font-size:11px}.sticky-contact a[href^="https://wa.me/905348441861"]::after{font-size:11px}.product-actions .btn{flex:1 1 145px;min-width:0;font-size:11px}}
