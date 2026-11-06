@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /data/
+Disallow: /scripts/
+Sitemap: https://volkswagenmotor.com/sitemap.xml
