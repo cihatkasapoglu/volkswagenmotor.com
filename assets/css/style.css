@@ -30,3 +30,6 @@
 .sticky-contact a[href^="https://wa.me/905348441861"]::after{content:"WhatsApp: 0534 844 18 61";font-size:12px}
 .product-actions .btn{flex:1 1 145px;min-width:145px}
 @media(max-width:760px){.sticky-contact .btn{font-size:0!important;padding:11px 6px}.sticky-contact a[href^="tel:+905537383806"]::after{font-size:11px}.sticky-contact a[href^="https://wa.me/905348441861"]::after{font-size:11px}.product-actions .btn{flex:1 1 145px;min-width:0;font-size:11px}}
+
+/* Banner altındaki üç bilgilendirme metnini tüm sayfalarda gizle */
+.hero-note{display:none!important}
