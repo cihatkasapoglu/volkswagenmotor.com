@@ -25,7 +25,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Configure Pages
+      - name: Apply individual product SEO content\n        run: python3 scripts/apply_product_seo.py\n      - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload website files
         uses: actions/upload-pages-artifact@v3
